@@ -1,0 +1,220 @@
+body {
+  background-color: #1f1f1f;
+  padding:50px;
+  font: 26px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color:#a3a3a3;
+  font-weight:300; 
+  width: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #c2c2c2;
+  line-height:1;
+  margin: 0 0 0 0px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2, h3, h4, h5 {
+  font-weight: 200;
+  line-height: 0.9;
+  margin-left: 0px;
+}
+
+h5 {
+  margin-bottom: 0px;
+}
+
+h6 {
+  font-weight: 700;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+p, ol, table, pre, dl {
+  font-weight: 50;
+  line-height: 1;
+  margin: 5 0 5;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  /*margin-right: 500px;*/
+  text-align: justify;
+  font-size: 18px;
+  display: inline-block;
+  width: 800px
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+a:link {
+  color: #dbdbdb;
+  /*color: #c2c2c2;*/
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dbdbdb;
+  font-weight: 700;
+  text-decoration: blink;
+  text-decoration-thickness: 3px;
+}
+
+a:visited {
+  color: #177378;
+  text-decoration: none;
+}
+
+a.home {
+  /*color: #dbdbdb;*/
+  color: #c2c2c2;
+  font-weight: 700;
+}
+
+a.home:hover {
+  color: #177378;
+  font-weight: 700;
+  text-decoration: blink;
+  text-decoration-thickness: 3px;
+}
+
+ul.main {
+  list-style-type: none;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  line-height: 1;
+  font-size: 16px;
+  width: 700px;
+}
+
+ul.sub {
+  list-style-type: none;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: normal;
+  width: 700px;
+}
+
+ul.bar {
+
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #1f1f1f;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #dbdbdb;
+  text-align: left;
+  padding-left: 0px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  text-decoration: none;
+  font-size: 12px;
+  top: 1000px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #1f1f1f;
+  color: #177378;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #1f1f1f;
+  color: 177378;
+}
+
+.anchor {
+  position: relative;
+}
+
+div#top {
+  position: fixed;
+  margin-left: 10px;
+  margin-top: 10px;
+  /*top: 0;*/
+  /*left: 0;*/
+  z-index: 999;
+  width: 100%;
+  height: 130px;
+  background-color: #1f1f1f;
+  box-shadow: 0px 0px 20px 20px rgba(31,31,31,1);
+}
+
+div#body {
+  margin-top: 190px;
+}
+
+div#upperborder {
+  position: fixed;
+  margin-top: -100px;
+  width: 100%;
+  height: 130px;
+  background-color: #1f1f1f;
+}
+
+r {
+  font-weight: 5;
+  line-height: 1;
+  margin: 5 0 5;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  /*margin-right: 500px;*/
+  text-align: justify;
+  font-size: 5px;
+  display: inline-block;
+  width: 700px
+}
+
+li.main{
+    margin: 10px 0;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+li.sub{
+  margin:  10px 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.inline-img {
+  display: inline;
+  margin: 0 0.01em;
+  padding: 0;
+  vertical-align: middle;
+  opacity: 0.6;
+  width: 25px;
+}
+
+hr {
+  display: block;
+  margin-top: 3em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}

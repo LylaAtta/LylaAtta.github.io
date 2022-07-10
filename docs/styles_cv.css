@@ -67,8 +67,10 @@ a:link {
 a:hover {
   color: #dbdbdb;
   font-weight: 700;
+  color: #dbdbdb;
   text-decoration: blink;
   text-decoration-thickness: 3px;
+  text-decoration-color: #177378;
 }
 
 a:visited {

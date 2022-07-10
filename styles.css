@@ -71,7 +71,9 @@ a:hover {
   /*color: #28d4af;*/
   color: #dbdbdb;
   font-weight: 500;
-  text-decoration: none;
+  text-decoration: blink;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #177378;
 }
 
 a:visited {

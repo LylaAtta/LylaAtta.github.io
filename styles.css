@@ -68,13 +68,14 @@ a:hover {
   color: #177378;
   color: #40c29e;
   color: #40c29e;*/
-  color: #28d4af;
+  /*color: #28d4af;*/
+  color: #dbdbdb;
   font-weight: 500;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:visited {
-  color: #2b8068;
+  /*color: #2b8068;*/
   color: #177378;
   text-decoration: none;
 }

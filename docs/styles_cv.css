@@ -145,6 +145,13 @@ ul.bar {
   color: 177378;
 }
 
+:target {
+  display: block;
+  position: relative;
+  top: -300px; 
+  visibility: hidden;
+}
+
 .anchor {
   position: relative;
 }

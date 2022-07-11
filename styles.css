@@ -1,3 +1,7 @@
+/* ------ */
+/* SETUP  */
+/* ------ */
+
 body {
   background-color: #1f1f1f;
   padding:50px;
@@ -49,6 +53,11 @@ p, ol, table, pre, dl {
   width: 600px
 }
 
+
+/* ----- */
+/* LISTS */
+/* ----- */
+
 ul {
   list-style-type: none;
   margin-left: 15px;
@@ -56,32 +65,6 @@ ul {
   margin-bottom: 0px;
   padding: 0;
 }
-
-a:link {
-  color: #dbdbdb;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-a:hover {
-  /*color: #689fc4;
-  color: #177378;
-  color: #40c29e;
-  color: #40c29e;*/
-  /*color: #28d4af;*/
-  color: #dbdbdb;
-  font-weight: 500;
-  text-decoration: blink;
-  text-decoration-thickness: 3px;
-  text-decoration-color: #177378;
-}
-
-a:visited {
-  /*color: #2b8068;*/
-  color: #177378;
-  text-decoration: none;
-}
-
 
 ul {
   list-style-type: none;
@@ -91,6 +74,41 @@ ul {
   font-size: 16px;
   width: 500px;
 }
+
+li{
+    margin: 10px 0;
+}
+
+
+/* ----- */
+/* LINKS */
+/* ----- */
+
+/* background color (dark grey): #1f1f1f, 
+   text color (mid gryy): #c2c2c2, 
+   link color (light grey): #dbdbdb, 
+   hover color (teal): #177378 */
+
+/* general links */
+
+a.general:link, a.general:visited {
+  color: #dbdbdb;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a.general:hover {
+  color: #177378;
+  font-weight: 500;
+  text-decoration: none;
+  text-decoration-thickness: 0px;
+  text-decoration-color: #177378;
+}
+
+/* ---- */
+/* MISC */
+/* ---- */
+
 
 div#top {
   position: fixed;
@@ -129,10 +147,6 @@ r {
   font-size: 5px;
   display: inline-block;
   width: 600px
-}
-
-li{
-    margin: 10px 0;
 }
 
 .inline-img {

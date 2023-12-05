@@ -19,7 +19,7 @@ div.polaroid {
 }
   
 img {
-    opacity: 0.5;
+    opacity: 0.2;
     max-width: 100%;
     height: auto;
 }
@@ -47,7 +47,7 @@ div#upperborder {
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 10px;
+  padding: 10 10px;
 }
 
 /* Create four equal columns that sits next to each other */

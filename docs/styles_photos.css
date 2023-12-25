@@ -25,8 +25,8 @@ img {
 }
 
 img:hover {
-    opacity: 0.3;
-    filter: alpha(opacity=0.3);
+    opacity: 1;
+    /* filter: alpha(opacity=0.3); */
 }
   
 div.container {

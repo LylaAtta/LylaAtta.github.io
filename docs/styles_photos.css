@@ -25,7 +25,9 @@ img {
 }
 
 img:hover {
-    opacity: 1;
+    opacity: 0.7;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
     /* filter: alpha(opacity=1); not sure why this makes the hover not work */
 }
   

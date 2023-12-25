@@ -4,36 +4,37 @@
 
 body {
     background-color: #1f1f1f;
-    padding:50px;
+    padding:0px;
     font: 26px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color:#a3a3a3;
     font-weight:300; 
-    width: 1500px;
-}
-
-
-div.polaroid {
-    width: 80%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:auto;
+    width:90vw;
 }
   
 img {
     opacity: 1.0;
     max-width: 100%;
     height: auto;
+    margin: auto;
+    /* border: 1px solid #000000; */
 }
 
 img:hover {
     opacity: 0.7;
     -webkit-filter: blur(5px);
     filter: blur(5px);
+
+    /* -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); */
     /* filter: alpha(opacity=1); not sure why this makes the hover not work */
 }
+
+
   
 div.container {
     text-align: center;
-    padding: 10px 20px;
+    padding: 0.3cm;
 }
 
 div#upperborder {
@@ -49,20 +50,21 @@ div#upperborder {
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 10 10 10 10px;
+  padding: 0.3cm;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 30%;
   max-width: 30%;
-  padding: 10 10 10 10px;
+  padding: 0.3cm;
 }
 
 .column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  padding: 0.3cm;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

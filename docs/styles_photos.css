@@ -26,7 +26,7 @@ img {
 
 img:hover {
     opacity: 1;
-    filter: alpha(opacity=1);
+    /* filter: alpha(opacity=1); not sure why this makes the hover not work */
 }
   
 div.container {
@@ -47,14 +47,14 @@ div#upperborder {
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 10 10px;
+  padding: 10 10 10 10px;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 30%;
   max-width: 30%;
-  padding: 0 10px;
+  padding: 10 10 10 10px;
 }
 
 .column img {

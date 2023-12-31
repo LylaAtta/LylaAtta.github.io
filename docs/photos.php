@@ -88,7 +88,7 @@
           <img class="image1" src=<?php echo "$impath" ?>>
           <div class="overlay">
             <div class="textcontainer">
-              <div class="text" style="font-size=2pt">
+              <div class="text">
                 <?php echo "$loc[$photo]"?> <br>
                 <?php echo "$yr[$photo]"?><br>
                 <?php echo "$cam[$photo]"?>

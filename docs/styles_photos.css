@@ -11,27 +11,103 @@ body {
     margin:auto;
     width:90vw;
 }
-  
-img {
-    opacity: 1.0;
-    max-width: 100%;
-    height: auto;
-    margin: auto;
-    /* border: 1px solid #000000; */
+
+/* image and hover formatting */
+
+.imgcontainer {
+  position: relative;
 }
 
-img:hover {
-    opacity: 0.7;
-    -webkit-filter: blur(5px);
-    filter: blur(5px);
+.image1 {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  z-index: 999;
+}
 
-    /* -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); */
-    /* filter: alpha(opacity=1); not sure why this makes the hover not work */
+.image1:hover {
+  opacity: 0.5;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.image2 {
+  position: absolute;
+  display: block;
+  width: 10%;
+  overflow: hidden;
+  height: auto;
+  /* margin: auto; */
+  margin: 0px 0px 0px 0px;
+  z-index: 997;
+  opacity: 0;
+  /* backdrop-filter: blur(5px); */
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.image2:hover {
+  opacity: 0.7;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(4, 187, 248, 0);
+}
+
+.imgcontainer:hover .overlay {
+  opacity: 1;
+}
+
+.textcontainer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.text {
+  position: absolute;
+  bottom: 0.4cm;
+  left: 0.5cm;
+  color: #bfbfbf;
+  font-family: "Helvetica";
+  font-size: 12pt;
+  z-index: 998;
+}
+
+.textcontainer:hover .overlay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 1;
 }
 
 
-  
+
+
+
+/* grid formatting  */
+
+
 div.container {
     text-align: center;
     padding: 0.3cm;
@@ -84,3 +160,5 @@ div#upperborder {
 }
 
 /* https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
+/* https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering */
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade */

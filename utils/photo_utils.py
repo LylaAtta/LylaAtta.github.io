@@ -24,6 +24,6 @@ photo_dets = pd.read_csv(home_dir+dets_path)
 # print(photo_dets.head())
 # photo_dets.to_csv(home_dir+save_path, index=False)
 
-json_path = '/assets/img/photos/photo_dets.json'
-photo_dets.to_json(home_dir+json_path, orient='records', lines=True)
+json_path = '/assets/img/photos/photo_dets_2.json'
+photo_dets.to_json(home_dir+json_path, orient='records')
 # print(photo_dets.head())

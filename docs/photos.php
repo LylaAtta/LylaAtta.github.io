@@ -84,7 +84,8 @@
 
         $impath = "$dir" . "$photo";?>
         <div class="imgcontainer">
-          <img class="image2" src=<?php echo "$impath" ?>>
+          
+          <img class="image1" src=<?php echo "$impath" ?>>
           <div class="overlay">
             <div class="textcontainer">
               <div class="text">

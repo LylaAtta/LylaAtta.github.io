@@ -1,0 +1,40 @@
+
+<div class="row">
+  
+  <?php foreach(array_chunk($files, $nrow) as $row) { ?>
+    <div class="column">
+      <?php foreach($row as $photo) { 
+        // figure out which json entry corresponds to this image
+
+
+        $impath = "$dir" . "$photo";?>
+        <div class="imgcontainer">
+          <img class="image2" src=<?php echo "$impath" ?>>
+          <img class="image1" src=<?php echo "$impath" ?>>
+          <div class="overlay">
+            <div class="textcontainer">
+              <div class="text"><?php echo "$photo" ?> <br> hello <br> hello</div>
+            </div>
+          </div>
+          
+          
+        </div>
+
+      <?php } ?>
+    </div>
+  <?php } ?>
+</div>
+
+<div class="row">
+  <p>hello</p>
+  <p>
+    <?php var_dump($loc) ?>
+    <?php var_dump($yr) ?>
+    <?php var_dump($cam) ?>
+    
+    <?php echo json_last_error() ?>
+  </p>
+</div>
+
+
+<img class="image1" src=<?php echo "$impath" ?>>
